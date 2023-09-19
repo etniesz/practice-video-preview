@@ -4,4 +4,5 @@ function playPreview(element) {
 
 function pausePreview(element) {
 	element.pause();
+	element.currentTime = 0;
 }
